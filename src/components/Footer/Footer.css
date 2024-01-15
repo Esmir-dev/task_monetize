@@ -1,0 +1,41 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.footer {
+  width: 100%;
+  min-height: 1rem;
+  display: flex;
+  background-color: #3498db;
+  border-top: 2px solid black;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.26);
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  font-weight: bold;
+}
+/* informations and styles about myself*/
+.contact-info {
+  text-align: center;
+  color: #fff;
+  padding: 1px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-grow: 1;
+}
+
+/* styles for smaller devices */
+@media only screen and (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  .contact-info {
+    flex-direction: column;
+    text-align: center;
+  }
+}

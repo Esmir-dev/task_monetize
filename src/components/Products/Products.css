@@ -1,0 +1,76 @@
+
+.products > .products-table {
+  display: flex;
+  flex-direction: row;
+  margin: 15px 20px;
+  gap: 10px;
+}
+.products .products-table table {
+  max-width: 100%; 
+  overflow-x: auto;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.products .products-table table th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+.products .products-table table th {
+  background-color: #f2f2f2;
+}
+.products:last-child {
+  margin-top: 20px;
+}
+.products:last-child > .products-table {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+.products .page-table {
+  margin: 10px;
+  padding: 5px 10px;
+}
+.products .pagination {
+  margin-bottom: 10px;
+}
+.products .pagination button {
+  background-color: #3498db;
+  color: white;
+  width: 35px;
+  border-radius: 5px;
+  justify-content: space-around;
+}
+.products .pagination button:hover {
+  background-color: #3498db;
+  color: white;
+  width: 35px;
+  border-radius: 5px;
+  justify-content: space-around;
+  border: 3px solid white;
+}
+
+.products .products-table button {
+  padding: 12px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.products .products-table button:hover {
+  background-color: #0056b3;
+}
+/* @media only screen and (max-width: 1340px) {
+  .products > .products-table {
+    flex-direction: column;
+
+@media only screen and (max-width: 800px) {
+  .products > .products-table {
+    flex-direction: column;
+    align-items: center;
+  }
+}
