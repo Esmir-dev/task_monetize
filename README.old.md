@@ -6,7 +6,7 @@
 1. **Signup and Login:** Users can sign up for a new account or log in with existing credentials.
 2. **Product Display:** Once successfully logged in, users can view a list of available products.
 3. **Search Products:** Users can search for products by name and price.
-4. **Also You can use my credentials: username: Esmir99, password: esmir99 
+4. Also You can use my credentials: username: Esmir99, password: esmir99 
 
 
 # Aplication's main features
